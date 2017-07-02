@@ -1,6 +1,18 @@
-# AngularPhaser
+# Angular Phaser
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+
+    ng new angular-phaser
+    cd angular-phaser
+    npm install phaser-ce --save
+
+add the following to .angular-cli.json
+
+    "scripts": [
+        "../node_modules/phaser-ce/build/custom/pixi.js",
+        "../node_modules/phaser-ce/build/custom/p2.js",
+        "../node_modules/phaser-ce/build/custom/phaser-split.js"
+    ],
 
 ## Development server
 
